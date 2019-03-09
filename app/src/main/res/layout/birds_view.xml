@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/huuhkaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/huuhkaja"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <ImageButton
+        android:id="@+id/peippo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/peippo"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <ImageButton
+        android:id="@+id/peukaloinen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/peukaloinen"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <ImageButton
+        android:id="@+id/punatulkku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/punatulkku"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+</android.support.constraint.ConstraintLayout>
