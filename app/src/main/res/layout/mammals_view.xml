@@ -7,35 +7,60 @@
     android:layout_height="match_parent"
     tools:context=".MammalsActivity">
 
-    <ImageButton
-        android:id="@+id/karhu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bear"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="171dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="390dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
 
-    <ImageButton
-        android:id="@+id/ronsu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/elephant"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="421dp" />
+        <ImageButton
+            android:id="@+id/karhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bear"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="171dp" />
 
-    <ImageButton
-        android:id="@+id/lammas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/lamb"
-        tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="171dp" />
+        <ImageButton
+            android:id="@+id/ronsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/elephant"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="421dp" />
 
-    <ImageButton
-        android:id="@+id/susi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/wolf"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="429dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="255dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentLeft="true">
+
+        <ImageButton
+            android:id="@+id/lammas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lamb"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <ImageButton
+            android:id="@+id/susi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/wolf"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="429dp" />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

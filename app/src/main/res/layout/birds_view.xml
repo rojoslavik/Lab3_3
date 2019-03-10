@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".BirdsActivity">
 
-<linearlayout
+<LinearLayout
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -22,17 +22,17 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         app:srcCompat="@drawable/huuhkaja"
-        android:scaleType="fitXY" />
+        android:scaleType="fitCenter" />
     <ImageButton
         android:id="@+id/peippo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         app:srcCompat="@drawable/peippo"
-        android:scaleType="fitXY"/>
-</linearlayout>
+        android:scaleType="fitCenter"/>
+</LinearLayout>
 
-    <linearlayout
+    <LinearLayout
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -43,6 +43,21 @@
     android:id="@+id/linearLayout"
     android:layout_alignParentLeft="true">
 
-</linearlayout>
+        <ImageButton
+            android:id="@+id/peukaloinen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/peukaloinen"
+            android:scaleType="fitCenter" />
+        <ImageButton
+            android:id="@+id/punatulkku"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/punatulkku"
+            android:scaleType="fitCenter"/>
+
+</LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

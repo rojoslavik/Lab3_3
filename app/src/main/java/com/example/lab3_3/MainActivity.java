@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (item.getItemId() == R.id.mammals_menu_item) {
             Intent mammalsIntent = new Intent(MainActivity.this,MammalsActivity.class);
+            startActivity(mammalsIntent);
 
         }
 
