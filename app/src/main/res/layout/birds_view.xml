@@ -4,38 +4,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".BirdsActivity">
+
+<linearlayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="390dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true">
 
     <ImageButton
         android:id="@+id/huuhkaja"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         app:srcCompat="@drawable/huuhkaja"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="147dp" />
-
+        android:scaleType="fitXY" />
     <ImageButton
         android:id="@+id/peippo"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         app:srcCompat="@drawable/peippo"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:scaleType="fitXY"/>
+</linearlayout>
 
-    <ImageButton
-        android:id="@+id/peukaloinen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/peukaloinen"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="346dp" />
+    <linearlayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="140dp"
+    android:layout_marginBottom="255dp"
+    android:id="@+id/linearLayout"
+    android:layout_alignParentLeft="true">
 
-    <ImageButton
-        android:id="@+id/punatulkku"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/punatulkku"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="346dp" />
+</linearlayout>
 
 </android.support.constraint.ConstraintLayout>
