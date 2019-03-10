@@ -18,19 +18,21 @@
 
         <ImageButton
             android:id="@+id/karhu"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             app:srcCompat="@drawable/bear"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="171dp" />
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
 
         <ImageButton
             android:id="@+id/ronsu"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             app:srcCompat="@drawable/elephant"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="421dp" />
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
 
     </LinearLayout>
 
@@ -47,19 +49,21 @@
 
         <ImageButton
             android:id="@+id/lammas"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             app:srcCompat="@drawable/lamb"
-            tools:layout_editor_absoluteX="220dp"
-            tools:layout_editor_absoluteY="171dp" />
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
 
         <ImageButton
             android:id="@+id/susi"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             app:srcCompat="@drawable/wolf"
-            tools:layout_editor_absoluteX="200dp"
-            tools:layout_editor_absoluteY="429dp" />
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
 
     </LinearLayout>
 
